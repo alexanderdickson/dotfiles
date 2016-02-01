@@ -10,4 +10,10 @@ Dot files and other setup stuff for a new computer
 ###OS X Only
 
 1. Download iTerm
-2. Install Solarized theme for it: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+2. Install Solarized dark theme for it: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+
+
+###Ubuntu Only
+
+1. Download Terminator
+2. Set Solarized dark theme for it in preferences (it comes with bundled with it, yay!)
