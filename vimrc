@@ -30,7 +30,7 @@ set cursorline
 set colorcolumn=80
 set background=dark
 colorscheme solarized
-set guifont=Monaco:h14
+set guifont=Droid\ Sans\ Mono\ for\ Powerline
 set guicursor=n:blinkon0
 set linespace=8
 set complete+=kspell
