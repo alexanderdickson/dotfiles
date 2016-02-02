@@ -1,3 +1,6 @@
+[user]
+	name = Alexander Dickson
+	email = @alexanderdickson.com
 [push]
   default = current
 [color]
@@ -10,7 +13,11 @@
   co = checkout
   pf = push --force-with-lease
   st = status --short
+  d = diff
+  dc = diff --cached
+  tree = log --graph --oneline --all
 [core]
+  editor = vim
   excludesfile = ~/.gitignore
   autocrlf = input
 [merge]
