@@ -9,6 +9,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-sensible'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/syntastic'
 Plug 'altercation/vim-colors-solarized'
     let g:solarized_contrast="high"
     let g:solarized_visibility="normal"
