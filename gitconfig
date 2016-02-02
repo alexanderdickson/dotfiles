@@ -2,9 +2,11 @@
   name = Alexander Dickson
   email = alex@alexanderdickson.com
 [push]
-  default = current
+  default = upstream
 [color]
   ui = auto
+[branch]
+  autosetuprebase = always
 [alias]
   aa = add --all
   ap = add --patch
