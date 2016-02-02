@@ -1,12 +1,14 @@
 call plug#begin('~/.vim/plugged')
 
 " Plugins
-Plug 'junegunn/seoul256.vim'
-Plug 'junegunn/vim-easy-align'
 Plug 'tomtom/tcomment_vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/YouCompleteMe'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-sensible'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'altercation/vim-colors-solarized'
     let g:solarized_contrast="high"
     let g:solarized_visibility="normal"
