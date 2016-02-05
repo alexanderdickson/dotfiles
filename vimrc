@@ -12,7 +12,7 @@ Plug 'kbarrette/mediummode'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
 Plug 'helino/vim-json'
-Plug 'PeterRincker/vim-argumentative
+Plug 'PeterRincker/vim-argumentative'
 Plug 'vim-airline/vim-airline'
     let g:airline_powerline_fonts = 1
 Plug 'altercation/vim-colors-solarized'
