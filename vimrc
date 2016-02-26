@@ -36,9 +36,14 @@ colorscheme solarized
 set guifont=Droid\ Sans\ Mono\ for\ Powerline
 set guicursor=n:blinkon0
 set linespace=8
-set spell spelllang=en_gb
+autocmd BufRead,BufNewFile *.{md,txt} setlocal spell spelllang=en_gb
 set complete+=kspell
 
 " Clear trailing whitespace on file save
 autocmd BufWritePre * :%s/\s\+$//e
 
+" How hard can it be?
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up> :echoe "Use k"<CR>
+nnoremap <Down> :echoe "Use j"<CR>
