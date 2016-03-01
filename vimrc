@@ -36,6 +36,7 @@ colorscheme solarized
 set guifont=Droid\ Sans\ Mono\ for\ Powerline
 set guicursor=n:blinkon0
 set linespace=8
+set noshowmode
 autocmd BufRead,BufNewFile *.{md,txt} setlocal spell spelllang=en_gb
 set complete+=kspell
 
