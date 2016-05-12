@@ -2,7 +2,7 @@ DEFAULT_USER="alex"
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 
-plugins=(git last-working-dir mvn web-search colored-man-pages cp battery node npm osx)
+plugins=(git last-working-dir mvn web-search colored-man-pages cp battery node npm osx zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
