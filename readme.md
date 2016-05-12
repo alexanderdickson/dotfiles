@@ -20,3 +20,8 @@ Dot files and other setup stuff for a new computer
 2. Set Solarized dark theme for it in preferences (it comes with bundled with it, yay!)
 3. [Map Caps Lock to Esc](http://askubuntu.com/a/446725/84267)
 
+-----------------------
+
+###TODO
+
+- Switch to Antigen for ohmyzsh plugins
