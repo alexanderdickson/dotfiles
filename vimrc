@@ -13,6 +13,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdtree'
 Plug 'elzr/vim-json'
 Plug 'PeterRincker/vim-argumentative'
 Plug 'vim-airline/vim-airline'
@@ -20,7 +21,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
     let g:solarized_contrast="high"
     let g:solarized_visibility="normal"
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 call plug#end()
 " Don't forget to run `PlugInstall` to install the plugins.
 
@@ -41,6 +41,12 @@ set linespace=8
 set noshowmode
 autocmd BufRead,BufNewFile *.{md,txt} setlocal spell spelllang=en_gb
 set complete+=kspell
+
+" Enable NERDTree by default but place cursor in other buffer
+autocmd VimEnter * NERDTree | wincmd p
+
+" Exit vim if the last buffer is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Clear trailing whitespace on file save
 autocmd BufWritePre * :%s/\s\+$//e
