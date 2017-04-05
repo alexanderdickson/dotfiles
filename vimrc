@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 " Plugins
 Plug 'tomtom/tcomment_vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'Valloric/YouCompleteMe'
+Plug 'Shougo/neocomplete.vim'
 Plug 'wookiehangover/jshint.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive'
