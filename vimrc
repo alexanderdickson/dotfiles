@@ -3,7 +3,6 @@ call plug#begin('~/.vim/plugged')
 " Plugins
 Plug 'tomtom/tcomment_vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'Shougo/neocomplete.vim'
 Plug 'wookiehangover/jshint.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive'
@@ -16,6 +15,9 @@ Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree'
 Plug 'elzr/vim-json'
 Plug 'PeterRincker/vim-argumentative'
+Plug 'Shougo/neocomplete.vim'
+    let g:neocomplete#enable_at_startup = 1
+    let g:neocomplete#enable_smart_case = 1
 Plug 'vim-airline/vim-airline'
     let g:airline_powerline_fonts = 1
 Plug 'altercation/vim-colors-solarized'
@@ -26,6 +28,10 @@ call plug#end()
 
 syntax on
 
+set wildmenu
+set showmatch
+set incsearch
+set hlsearch
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -50,6 +56,13 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Clear trailing whitespace on file save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" Update vim as .vimrc is changed
+augroup myvimrc
+    au!
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+augroup END
+au BufRead,BufNewFile *.fidl set filetype=fidl
 
 " How hard can it be?
 nnoremap <Left> :echoe "Use h"<CR>
