@@ -43,13 +43,14 @@ set background=dark
 colorscheme solarized
 set guifont=Droid\ Sans\ Mono\ for\ Powerline
 set guicursor=n:blinkon0
-set linespace=8
+set linespace=6
 set noshowmode
+set spell
 autocmd BufRead,BufNewFile *.{md,txt} setlocal spell spelllang=en_gb
 set complete+=kspell
 
-" Enable NERDTree by default but place cursor in other buffer
-autocmd VimEnter * NERDTree | wincmd p
+" Enable NERDTree by default (except when authoring a commit message) but place cursor in other buffer
+autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | wincmd p | endif
 
 " Exit vim if the last buffer is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
