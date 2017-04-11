@@ -35,6 +35,8 @@ call plug#end()
 
 syntax on
 
+set ignorecase
+set smartcase
 set wildmenu
 set showmatch
 set incsearch
