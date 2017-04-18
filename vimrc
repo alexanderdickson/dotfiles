@@ -15,9 +15,9 @@ Plug 'PeterRincker/vim-argumentative'
 Plug 'ctrlpvim/ctrlp.vim'
     let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 Plug 'vim-syntastic/syntastic'
-    set statusline += %#warningmsg#
-    set statusline += %{SyntasticStatuslineFlag()}
-    set statusline += %*
+    set statusline+=%#warningmsg#
+    set statusline+=%{SyntasticStatuslineFlag()}
+    set statusline+=%*
     let g:syntastic_always_populate_loc_list = 1
     let g:syntastic_auto_loc_list = 0
     let g:syntastic_check_on_open = 1
