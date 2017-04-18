@@ -36,6 +36,7 @@ call plug#end()
 
 syntax on
 
+set undofile
 set ignorecase
 set smartcase
 set wildmenu
