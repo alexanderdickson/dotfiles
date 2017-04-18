@@ -9,14 +9,15 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'elzr/vim-json'
 Plug 'PeterRincker/vim-argumentative'
+Plug 'ctrlpvim/ctrlp.vim'
+    let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 Plug 'vim-syntastic/syntastic'
-    set statusline+=%#warningmsg#
-    set statusline+=%{SyntasticStatuslineFlag()}
-    set statusline+=%*
+    set statusline += %#warningmsg#
+    set statusline += %{SyntasticStatuslineFlag()}
+    set statusline += %*
     let g:syntastic_always_populate_loc_list = 1
     let g:syntastic_auto_loc_list = 0
     let g:syntastic_check_on_open = 1
@@ -28,8 +29,8 @@ Plug 'Shougo/neocomplete.vim'
 Plug 'vim-airline/vim-airline'
     let g:airline_powerline_fonts = 1
 Plug 'altercation/vim-colors-solarized'
-    let g:solarized_contrast="high"
-    let g:solarized_visibility="normal"
+    let g:solarized_contrast = "high"
+    let g:solarized_visibility = "normal"
 call plug#end()
 " Don't forget to run `PlugInstall` to install the plugins.
 
