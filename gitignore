@@ -1,3 +1,11 @@
+# OS X crap
 .DS_Store
-*.sw[op]
+
+# Recovery files from vim
+*.sw[nop]
+
+# Undo files from vim
+*.un~
+
+# Created by git
 *.orig
