@@ -15,6 +15,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'elzr/vim-json'
 Plug 'moll/vim-node'
 Plug 'PeterRincker/vim-argumentative'
+Plug 'Raimondi/delimitMate'
 Plug 'pangloss/vim-javascript'
     let g:javascript_plugin_jsdoc = 1                                                                                                                                                                    
 Plug 'mileszs/ack.vim'                                                                              
@@ -77,6 +78,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Clear trailing whitespace on file save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" Allow 'w!!' to save with sudo privileges.
+cabbr w!! w !sudo tee > /dev/null %
 
 " Update vim as .vimrc is changed
 augroup myvimrc
