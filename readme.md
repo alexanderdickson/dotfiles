@@ -6,6 +6,7 @@ Dot files and other setup stuff for a new computer
 3. Setup symlinks and install extras with install.sh script
 4. Use "PlugInstall" in vim to install plugins
 5. Setup SSH keys for GitHub
+6. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
 
 ### OS X Only
 
