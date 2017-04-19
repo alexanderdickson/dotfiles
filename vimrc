@@ -9,9 +9,18 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/speeddating'
 Plug 'scrooloose/nerdtree'
 Plug 'elzr/vim-json'
+Plug 'moll/vim-node'
 Plug 'PeterRincker/vim-argumentative'
+Plug 'pangloss/vim-javascript'
+    let g:javascript_plugin_jsdoc = 1                                                                                                                                                                    
+Plug 'mileszs/ack.vim'                                                                              
+    if executable('ag')                                                                             
+         let g:ackprg = 'ag --vimgrep'                                                                 
+    endif   
 Plug 'ctrlpvim/ctrlp.vim'
     let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 Plug 'vim-syntastic/syntastic'
