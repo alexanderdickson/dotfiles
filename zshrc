@@ -2,7 +2,7 @@ DEFAULT_USER="alex"
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 
-plugins=(git last-working-dir mvn web-search colored-man-pages cp battery node npm osx zsh-syntax-highlighting)
+plugins=(git git-extras github common-aliases last-working-dir mvn web-search colored-man-pages cp battery node npm osx zsh-syntax-highlighting catimg rsync)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -13,3 +13,6 @@ set -o emacs
 
 # Enable fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Print each PATH entry on a new line
+echo -e ${PATH//:/\\n}
