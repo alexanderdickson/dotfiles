@@ -6,7 +6,7 @@ plugins=(git git-extras github common-aliases last-working-dir mvn web-search co
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin"
 
 # Use emacs style shortcuts
 set -o emacs
@@ -15,4 +15,4 @@ set -o emacs
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Print each PATH entry on a new line
-echo -e ${PATH//:/\\n}
+alias path='echo -e ${PATH//:/\\n}'
