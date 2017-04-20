@@ -6,7 +6,7 @@ plugins=(git git-extras github common-aliases last-working-dir mvn web-search co
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin"
 
 # Use emacs style shortcuts
 set -o emacs
