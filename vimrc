@@ -76,6 +76,8 @@ set spell
 autocmd BufRead,BufNewFile *.{md,txt} setlocal spell spelllang=en_gb
 set complete+=kspell
 
+let mapleader=","
+
 " Enable NERDTree by default (except when authoring a commit message) but place cursor in other buffer
 autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | wincmd p | endif
 
