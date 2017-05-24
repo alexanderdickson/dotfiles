@@ -16,6 +16,12 @@ Plug 'elzr/vim-json'
 Plug 'moll/vim-node'
 Plug 'PeterRincker/vim-argumentative'
 Plug 'Raimondi/delimitMate'
+Plug 'othree/jspc.vim'
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install'}
+    let g:tern_map_keys=1
+    let g:tern_show_argument_hints='on_hold'
+    let g:tern_show_loc_after_rename=0
+    let g:tern_show_signature_in_pum=1
 Plug 'pangloss/vim-javascript'
     let g:javascript_plugin_jsdoc = 1                                                                                                                                                                    
 Plug 'mileszs/ack.vim'                                                                              
