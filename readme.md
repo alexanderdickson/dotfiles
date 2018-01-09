@@ -9,6 +9,7 @@ Dot files and other setup stuff for a new computer
 6. [Get NPM](https://www.npmjs.com/get-npm)
 7. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
 8. [Install](http://jshint.com/install/) jshint
+9. [Install](https://www.dropbox.com/downloading) Dropbox
 
 ### OS X Only
 
@@ -16,7 +17,7 @@ Dot files and other setup stuff for a new computer
 1. Download iTerm
 2. [Install](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized) Solarized dark theme for it
 3. [Map Caps Lock to Esc](http://stackoverflow.com/a/8437594/31671)
-4. [Install Spectacles](https://www.spectacleapp.com/) for window management
+4. [Install Spectacle](https://www.spectacleapp.com/) for window management
 
 
 ### Ubuntu Only
