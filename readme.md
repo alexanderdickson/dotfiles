@@ -18,6 +18,7 @@ Dot files and other setup stuff for a new computer
 2. [Install](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized) Solarized dark theme for it
 3. [Map Caps Lock to Esc](http://stackoverflow.com/a/8437594/31671)
 4. [Install Spectacle](https://www.spectacleapp.com/) for window management
+5. [Install Homebrew](https://docs.brew.sh/Installation.html)
 
 
 ### Ubuntu Only
