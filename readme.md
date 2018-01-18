@@ -4,7 +4,7 @@ Dot files and other setup stuff for a new computer
 1. Download [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh)
 2. Follow [instructions](https://gist.github.com/agnoster/3712874) for agnoster theme
 3. Setup symlinks and install extras with `install.sh` script
-4. [Install Vim-Plug](https://github.com/junegunn/vim-plug#installation) and then use "PlugInstall" in vim to install plugins
+4. Use "PlugInstall" in vim to install plugins
 5. Setup SSH keys for GitHub
 6. [Get NPM](https://www.npmjs.com/get-npm)
 7. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
