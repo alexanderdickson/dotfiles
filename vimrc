@@ -2,7 +2,8 @@ call plug#begin('~/.vim/plugged')
 
 " Plugins
 Plug 'tomtom/tcomment_vim'
-Plug 'airblade/vim-gitgutter'
+Plug 'ludovicchabant/vim-lawrencium'
+Plug 'mhinz/vim-signify'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
