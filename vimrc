@@ -17,6 +17,7 @@ Plug 'elzr/vim-json'
 Plug 'moll/vim-node'
 Plug 'PeterRincker/vim-argumentative'
 Plug 'Raimondi/delimitMate'
+Plug 'mxw/vim-jsx'
 Plug 'othree/jspc.vim'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install'}
     let g:tern_map_keys=1
@@ -24,13 +25,14 @@ Plug 'ternjs/tern_for_vim', { 'do': 'npm install'}
     let g:tern_show_loc_after_rename=0
     let g:tern_show_signature_in_pum=1
 Plug 'pangloss/vim-javascript'
-    let g:javascript_plugin_jsdoc = 1                                                                                                                                                                    
+    let g:javascript_plugin_jsdoc = 1
+    let g:javascript_plugin_flow = 1
 Plug 'mileszs/ack.vim'                                                                              
     if executable('ag')                                                                             
          let g:ackprg = 'ag --vimgrep'                                                                 
     endif   
-Plug 'ctrlpvim/ctrlp.vim'
-    let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+Plug 'wincent/command-t', { 'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make' }
+    let g:CommandTMaxFiles=3000000
 Plug 'vim-syntastic/syntastic'
     set statusline+=%#warningmsg#
     set statusline+=%{SyntasticStatuslineFlag()}
@@ -39,7 +41,8 @@ Plug 'vim-syntastic/syntastic'
     let g:syntastic_auto_loc_list = 0
     let g:syntastic_check_on_open = 1
     let g:syntastic_check_on_wq = 0
-    let g:syntastic_javascript_checkers = ['jshint']
+    let g:syntastic_javascript_checkers = ['jshint', 'flow']
+    let g:syntastic_javascript_flow_exe = 'flow'
 Plug 'Shougo/neocomplete.vim'
     let g:neocomplete#enable_at_startup = 1
     let g:neocomplete#enable_smart_case = 1
