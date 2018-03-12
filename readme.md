@@ -9,7 +9,8 @@ Dot files and other setup stuff for a new computer
 6. [Install](https://www.npmjs.com/get-npm) NPM
 7. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
 8. [Install](http://jshint.com/install/) jshint
-9. [Install](https://www.dropbox.com/downloading) Dropbox
+9. [Install](https://github.com/facebook/flow#installing-flow) flow
+10. [Install](https://www.dropbox.com/downloading) Dropbox
 
 ### OS X Only
 
