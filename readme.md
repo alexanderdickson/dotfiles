@@ -21,6 +21,7 @@ Dot files and other setup stuff for a new computer
 4. [Install Spectacle](https://www.spectacleapp.com/) for window management
 5. [Install Karabiner](https://pqrs.org/osx/karabiner/)
 6. [Install Homebrew](https://docs.brew.sh/Installation.html)
+7. [Install MiddleClick](https://rouge41.com/labs/)
 
 
 ### Ubuntu Only
