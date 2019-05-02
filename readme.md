@@ -8,7 +8,7 @@ Dot files and other setup stuff for a new computer
 5. [Generate SSH key for GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 6. [Install](https://www.npmjs.com/get-npm) NPM
 7. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
-8. [Install](http://jshint.com/install/) jshint
+9. [Install](https://eslint.org/docs/user-guide/getting-started) eslint
 9. [Install](https://github.com/facebook/flow#installing-flow) flow
 10. [Install](https://www.dropbox.com/downloading) Dropbox
 

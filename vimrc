@@ -27,10 +27,10 @@ Plug 'ternjs/tern_for_vim', { 'do': 'npm install'}
 Plug 'pangloss/vim-javascript'
     let g:javascript_plugin_jsdoc = 1
     let g:javascript_plugin_flow = 1
-Plug 'mileszs/ack.vim'                                                                              
-    if executable('ag')                                                                             
-         let g:ackprg = 'ag --vimgrep'                                                                 
-    endif   
+Plug 'mileszs/ack.vim'
+    if executable('ag')
+         let g:ackprg = 'ag --vimgrep'
+    endif
 Plug 'wincent/command-t', { 'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make' }
     let g:CommandTMaxFiles=3000000
 Plug 'vim-syntastic/syntastic'
@@ -41,8 +41,9 @@ Plug 'vim-syntastic/syntastic'
     let g:syntastic_auto_loc_list = 0
     let g:syntastic_check_on_open = 1
     let g:syntastic_check_on_wq = 0
-    let g:syntastic_javascript_checkers = ['jshint', 'flow']
+    let g:syntastic_javascript_checkers = ['eslint', 'flow']
     let g:syntastic_javascript_flow_exe = 'flow'
+    let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
 Plug 'Shougo/neocomplete.vim'
     let g:neocomplete#enable_at_startup = 1
     let g:neocomplete#enable_smart_case = 1
@@ -63,8 +64,8 @@ set wildmenu
 set showmatch
 set incsearch
 set hlsearch
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set number
 set ruler
