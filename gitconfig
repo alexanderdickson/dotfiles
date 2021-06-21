@@ -19,6 +19,7 @@
     reflog = delta
     show = delta
 [delta]
+    line-numbers = true
     plus-style = "syntax #012800"
     minus-style = "syntax #340001"
     syntax-theme = Solarized (dark)
