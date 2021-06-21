@@ -7,10 +7,11 @@ Dot files and other setup stuff for a new computer
 4. Use "PlugInstall" in vim to install plugins
 5. [Generate SSH key for GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 6. [Install](https://www.npmjs.com/get-npm) NPM
-7. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
+8. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
 9. [Install](https://eslint.org/docs/user-guide/getting-started) eslint
-9. [Install](https://github.com/facebook/flow#installing-flow) flow
-10. [Install](https://www.dropbox.com/downloading) Dropbox
+10. [Install](https://github.com/facebook/flow#installing-flow) flow
+11. [Install](https://github.com/dandavison/delta#installation) Delta
+12. [Install](https://www.dropbox.com/downloading) Dropbox
 
 ### OS X Only
 
