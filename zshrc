@@ -18,5 +18,8 @@ set -o emacs
 # Enable fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Make it easy to re-source the updated config
+alias reload="source ~/.zshrc"
+
 # Print each PATH entry on a new line
-alias path='echo -e ${PATH//:/\\n}'
+alias path="echo -e ${PATH//:/\\n}"
