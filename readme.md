@@ -8,10 +8,9 @@ Dot files and other setup stuff for a new computer
 5. [Generate SSH key for GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 6. [Install](https://www.npmjs.com/get-npm) NPM
 8. [Install](https://github.com/ggreer/the_silver_searcher#installing) The Silver Searcher
-9. [Install](https://eslint.org/docs/user-guide/getting-started) eslint
-10. [Install](https://github.com/facebook/flow#installing-flow) flow
-11. [Install](https://github.com/dandavison/delta#installation) Delta
-12. [Install](https://www.dropbox.com/downloading) Dropbox
+9. [Install](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md) ZSH Autosuggestions
+10. [Install](https://github.com/dandavison/delta#installation) Delta
+11. [Install](https://www.dropbox.com/downloading) Dropbox
 
 ### OS X Only
 
