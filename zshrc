@@ -6,7 +6,7 @@ ZSH_THEME="agnoster"
 EDITOR="vim"
 
 # Zsh plugins
-plugins=(git git-extras mercurial github common-aliases last-working-dir mvn web-search colored-man-pages cp battery node npm macos zsh-syntax-highlighting catimg rsync alias-finder brew command-not-found frontend-search gitignore iterm2 jsontools nvm yarn sudo)
+plugins=(git git-extras mercurial github common-aliases last-working-dir mvn web-search colored-man-pages cp battery node npm macos zsh-syntax-highlighting catimg rsync alias-finder brew command-not-found frontend-search gitignore iterm2 jsontools nvm yarn sudo zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
