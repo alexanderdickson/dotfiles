@@ -1,16 +1,16 @@
 #!/bin/bash
 
-for file in vimrc gitconfig gitignore zshrc; do
+# Symlink the configs
+for file in vimrc gitconfig gitignore; do
 	ln -sf "$(pwd)/$file" ~/.$file
 	echo "$file linked to ~/.$file"
 done
 
-# Install vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    
-# Install fzf
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+for file in fish.config fish_plugins; do
+	ln -sf "$(pwd)/$file" ~/.config/fish/$file
+	echo "$file linked to ~/.config/fish/$file"
+done
 
-# Install zsh-syntax-highlighting
-git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# Switch default shell to fish
+sudo echo /usr/local/bin/fish >> /etc/shells
+chsh -s /usr/local/bin/fish
