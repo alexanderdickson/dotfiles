@@ -20,7 +20,7 @@ Dot files and other setup stuff for a new computer
 - Setup iTerm to use Solarized Dark theme
 - Set fish as [default shell](https://atlassc.net/2022/10/24/fish-on-macos)
 - Setup symlinks with `install.sh` script
-- Use `:PlugInstall` in vim to install plugins (ensure it auto-installed from `.vimrc`
+- Use `:PlugInstall` in vim to install plugins (ensure it auto-installed from `.vimrc`)
 - Use `fisher update` to install all fish plugins
 - [Generate SSH key for GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Map Caps Lock to Esc](http://stackoverflow.com/a/8437594/31671)
