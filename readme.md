@@ -5,6 +5,7 @@ Dot files and other setup stuff for a new computer
 
 - [iTerm](https://iterm2.com/) (improved terminal)
 - [fsh shell](https://fishshell.com/) (nice)
+- [fisher](https://github.com/jorgebucaran/fisher?tab=readme-ov-file#installation) (plugins for fsh shell)
 - [The Silver Searcher](https://github.com/ggreer/the_silver_searcher#installing) (code search)
 - [Delta](https://github.com/dandavison/delta) (improved pager)
 - [fzf](https://github.com/junegunn/fzf) (fuzzy finder)
