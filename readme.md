@@ -9,7 +9,7 @@ Dot files and other setup stuff for a new computer
 - [The Silver Searcher](https://github.com/ggreer/the_silver_searcher#installing) (code search)
 - [Delta](https://github.com/dandavison/delta) (improved pager)
 - [fzf](https://github.com/junegunn/fzf) (fuzzy finder)
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) for terminal bling
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) (terminal bling)
 - [Rectangle](https://rectangleapp.com) (window management)
 - [Homebrew](https://docs.brew.sh/Installation.html) (package management)
 - [MiddleClick](https://rouge41.com/labs/) (for middle clicking on trackpad)
